@@ -34,6 +34,7 @@ class Graf extends JFrame {
 	JLabel lb9;
 	JLabel lb10;
 	JLabel lb11;
+	JLabel lb12;
 	JTextArea ta;
 
 	public Graf() {
@@ -58,6 +59,8 @@ class Graf extends JFrame {
 		lb10.setBounds(30, 105, 700, 50);
 		lb11 = new JLabel("Ўарафиева ");
 		lb11.setBounds(30, 120, 700, 50);
+		lb12 = new JLabel("timur_krymguzhin@mail.ru ");
+		lb12.setBounds(150, 75, 700, 50);
 		lb7 = new JLabel(" нопка информации добавлена");
 		lb7.setBounds(200, 190, 200, 50);
 		lb5 = new JLabel("”фимский государственный авиационный технический университет");
@@ -138,10 +141,12 @@ class Graf extends JFrame {
 		cont.add(lb9);
 		cont.add(lb10);
 		cont.add(lb11);
+		cont.add(lb12);
 		cont.add(area2);
 		setContentPane(cont);
 //вот тут добавление ссылки
 
+		
 		JLabel txtBrowserURILabel;
 		txtBrowserURILabel = new JLabel("asu.ugatu.ac.ru/index.php");
 		txtBrowserURILabel.setBounds(260, 170, 150, 30);
